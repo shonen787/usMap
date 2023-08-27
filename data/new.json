@@ -1,0 +1,262 @@
+[
+    {
+        "state": "Alabama",
+        "MedianIncome": 53913,
+        "NatDisaster": ["Tornadoes", "Hurricanes", "Floods"]
+    },
+    {
+        "state": "Alaska",
+        "MedianIncome":77845,
+        "NatDisaster": ["Earthquakes", "Tsunamis", "Volcanic Activity"]
+    },
+    {
+        "state": "Arizona",
+        "MedianIncome": 69056,
+        "NatDisaster": ["Wildfires", "Dust Storms", "Flash Floods"]
+    },
+    {
+        "state": "Arkansas",
+        "MedianIncome": 52528,
+        "NatDisaster": ["Tornadoes", "Floods", "Winter Storms"]
+    },
+    {
+        "state": "California",
+        "MedianIncome": 84907,
+        "NatDisaster": ["Earthquakes", "Wildfires", "Landslides"]
+    },
+    {
+        "state": "Colorado",
+        "MedianIncome": 82254,
+        "NatDisaster": ["Wildfires", "Floods", "Blizzards"]
+    },
+    {
+        "state": "Connecticut",
+        "MedianIncome": 83771,
+        "NatDisaster": ["Hurricanes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "Delaware",
+        "MedianIncome": 71091,
+        "NatDisaster": ["Hurricanes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "District of Columbia",
+        "MedianIncome": 90088,
+        "NatDisaster": ["Winter Storms", "Floods"]
+    },
+    {
+        "state": "Florida",
+        "MedianIncome": 63602,
+        "NatDisaster": ["Hurricanes", "Floods", "Wildfires"]
+    },
+    {
+        "state": "Georgia",
+        "MedianIncome": 66559,
+        "NatDisaster": ["Hurricanes", "Tornadoes", "Floods"]
+    },
+    {
+        "state": "Hawaii",
+        "MedianIncome": 84857,
+        "NatDisaster": ["Hurricanes", "Tsunamis", "Volcanic Activity"]
+    },
+    {
+        "state": "Idaho",
+        "MedianIncome": 66474,
+        "NatDisaster": ["Wildfires", "Earthquakes", "Floods"]
+    },
+    {
+        "state": "Illinois",
+        "MedianIncome": 72205,
+        "NatDisaster": ["Tornadoes", "Floods", "Winter Storms"]
+    },
+    {
+        "state": "Indiana",
+        "MedianIncome": 62743,
+        "NatDisaster": ["Tornadoes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "Iowa",
+        "MedianIncome": 65600,
+        "NatDisaster": ["Tornadoes", "Floods", "Winter Storms"]
+    },
+    {
+        "state": "Kansas",
+        "MedianIncome": 64124,
+        "NatDisaster": ["Tornadoes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "Kentucky",
+        "MedianIncome": 55573,
+        "NatDisaster": ["Tornadoes", "Floods", "Winter Storms"]
+    },
+    {
+        "state": "Louisiana",
+        "MedianIncome": 52087,
+        "NatDisaster": ["Hurricanes", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Maine",
+        "MedianIncome": 64767,
+        "NatDisaster": ["Winter Storms", "Floods", "Hurricanes"]
+    },
+    {
+        "state": "Maryland",
+        "MedianIncome": 90203,
+        "NatDisaster": ["Hurricanes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "Massachusetts",
+        "MedianIncome": 89645,
+        "NatDisaster": ["Winter Storms", "Hurricanes", "Floods"]
+    },
+    {
+        "state": "Michigan",
+        "MedianIncome": 63498,
+        "NatDisaster": ["Winter Storms", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Minnesota",
+        "MedianIncome": 77720,
+        "NatDisaster": ["Blizzards", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Mississippi",
+        "MedianIncome": 48716,
+        "NatDisaster": ["Hurricanes", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Missouri",
+        "MedianIncome": 61847,
+        "NatDisaster": ["Tornadoes", "Floods", "Winter Storms"]
+    },
+    {
+        "state": "Montana",
+        "MedianIncome": 63249,
+        "NatDisaster": ["Wildfires", "Floods", "Blizzards"]
+    },
+    {
+        "state": "Nebraska",
+        "MedianIncome": 66817,
+        "NatDisaster": ["Tornadoes", "Blizzards", "Floods"]
+    },
+    {
+        "state": "Nevada",
+        "MedianIncome": 66274,
+        "NatDisaster": ["Wildfires", "Earthquakes", "Floods"]
+    },
+    {
+        "state": "New Hampshire",
+        "MedianIncome": 88465,
+        "NatDisaster": ["Winter Storms", "Floods", "Hurricanes"]
+    },
+    {
+        "state": "New Jersey",
+        "MedianIncome": 89296,
+        "NatDisaster": ["Hurricanes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "New Mexico",
+        "MedianIncome": 53992,
+        "NatDisaster": ["Wildfires", "Dust Storms", "Floods"]
+    },
+    {
+        "state": "New York",
+        "MedianIncome": 74314,
+        "NatDisaster": ["Hurricanes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "North Carolina",
+        "MedianIncome": 61972,
+        "NatDisaster": ["Hurricanes", "Tornadoes", "Floods"]
+    },
+    {
+        "state": "North Dakota",
+        "MedianIncome": 66519,
+        "NatDisaster": ["Blizzards", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Ohio",
+        "MedianIncome": 62262,
+        "NatDisaster": ["Tornadoes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "Oklahoma",
+        "MedianIncome": 55826,
+        "NatDisaster": ["Tornadoes", "Wildfires", "Floods"]
+    },
+    {
+        "state": "Oregon",
+        "MedianIncome": 71562,
+        "NatDisaster": ["Wildfires", "Earthquakes", "Floods"]
+    },
+    {
+        "state": "Pennsylvania",
+        "MedianIncome": 68957,
+        "NatDisaster": ["Winter Storms", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Rhode Island",
+        "MedianIncome": 74008,
+        "NatDisaster": ["Hurricanes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "South Carolina",
+        "MedianIncome": 59318,
+        "NatDisaster": ["Hurricanes", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "South Dakota",
+        "MedianIncome": 66143,
+        "NatDisaster": ["Blizzards", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Tennessee",
+        "MedianIncome": 59695,
+        "NatDisaster": ["Tornadoes", "Floods", "Winter Storms"]
+    },
+    {
+        "state": "Texas",
+        "MedianIncome": 66963,
+        "NatDisaster": ["Hurricanes", "Tornadoes", "Wildfires"]
+    },
+    {
+        "state": "Utah",
+        "MedianIncome": 79449,
+        "NatDisaster": ["Wildfires", "Earthquakes", "Floods"]
+    },
+    {
+        "state": "Vermont",
+        "MedianIncome": 72431,
+        "NatDisaster": ["Winter Storms", "Floods"]
+    },
+    {
+        "state": "Virginia",
+        "MedianIncome": 80963,
+        "NatDisaster": ["Hurricanes", "Winter Storms", "Floods"]
+    },
+    {
+        "state": "Washington",
+        "MedianIncome": 84247,
+        "NatDisaster": ["Earthquakes", "Wildfires", "Landslides"]
+    },
+    {
+        "state": "West Virginia",
+        "MedianIncome": 51248,
+        "NatDisaster": ["Floods", "Winter Storms"]
+    },
+    {
+        "state": "Wisconsin",
+        "MedianIncome": 67125,
+        "NatDisaster": ["Winter Storms", "Floods", "Tornadoes"]
+    },
+    {
+        "state": "Wyoming",
+        "MedianIncome": 65204,
+        "NatDisaster": ["Wildfires", "Blizzards", "Floods"]
+    },
+    {
+        "state": "Puerto Rico",
+        "MedianIncome": 22237,
+        "NatDisaster": ["Hurricanes", "Floods"]
+    }
+]

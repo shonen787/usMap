@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" ></link>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="filterBar">   
+            <div class="filterLowerMedian">
+                <label for="lowerMedian">Median Income Lower Range:</label>
+                <select id="lowerMedian">
+                </select>
+ 
+            </div>
+            <div class="filterHigherMedian">
+                <label for="higherMedian">Median Income Higher Range:</label>
+                    <select id="higherMedian">
+                    </select>
+            </div>
+            <label for="NaturalDisasters">Choose the Natural Disasters to avoid:</label>
+            <div id="naturalDisasterCards">
+ 
+            </div>
+    </div>
+    <div class="mapholder">
+        <div class="cities"></div>
+        <div id="map-card-container"></div>
+        <div class="stats"></div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+
+
+.filterBar{
+    width: 100vw;
+    height: 20vh;
+    background-color: red;
+    
+}
+
+.mapholder{
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-columns: 1fr 3fr 1fr;
+  
+}
+
+
+#map-card-container{
+    display: flex;
+    gap: 1px;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+
+.usState{
+    background-color: green;
+    height: 100px;
+    width: 15%;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.usState:hover{
+    background-color: red;
+}
+
+.cities{
+    display: flex;
+    background-color: yellow;
+}
+
+.stats{
+    background-color: burlywood;
+}
+
+.hidden{
+    background-color: grey;
+    display: none;
+}
+
+#naturalDisasterCards{
+    background-color: yellow;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.disasterCards{
+    margin: 2px;
+    width:fit-content;
+    border-style: solid;
+    background-color: grey;
+    color: white;
+    border-color: black;
+    font-size: larger;
+}
+
+.selectedDisasterCard{
+    background-color: #2f2d2d;
+}
+
+.disasterCards:hover{
+    background-color: #454242;
+    color: black;
+}

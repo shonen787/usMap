@@ -1,0 +1,5 @@
+{
+    "type" : "income",
+    "Source": "https://www.census.gov/library/publications/2022/acs/acsbr-011.html",
+    "note": "Margin of error was ignored on all states"
+}
