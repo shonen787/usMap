@@ -23,7 +23,6 @@ window.onload = async function() {
     try{
         await fetchData();
         populateCards(cardContainer);
-
     }
     catch (error){
         console.error("Error fetching data:", error);
@@ -76,21 +75,58 @@ async function fetchData(){
 function populateCards(container){
     
     dataJson.forEach(state =>{
-        container.appendChild(createCard(state['state']));
-
-        
+        container.appendChild(createCard(state['state']));        
      });
 }
 
 function createCard(state){
-    const card = document.createElement('div');
-    const stateName = document.createElement('p');
-    let state_normalize = state.replaceAll(' ', '_');
+    // const card = document.createElement('div');
+    // const stateName = document.createElement('p');
+    // let state_normalize = state.replaceAll(' ', '_');
+    // card.classList.add('card','usState',state_normalize, 'notHidden');    
+    // stateName.innerText = state;    
+    // card.appendChild(stateName); 
+    // return card;
 
-    card.classList.add('card','usState',state_normalize, 'notHidden');    
-    stateName.innerText = state;    
-    card.appendChild(stateName);
- 
+
+    const card = document.createElement('div');
+    card.classList.add('wrap', 'animate', 'pop');
+
+    const overlay = document.createElement('div');
+    overlay.classList.add('overlay');
+
+    const overlayContent = document.createElement('div');
+    overlayContent.classList.add('overlay-content', 'animate', 'slide-left', 'delay-2');
+    
+    const stateName = document.createElement('h1');
+    stateName.innerText = state;
+
+    let state_normalize = state.replaceAll(' ', '_');
+    card.classList.add('card','usState',state_normalize, 'notHidden');
+
+
+    const imageContent = document.createElement('div');
+    imageContent.classList.add('image-content', 'animate', 'slide', 'delay-5');
+
+    overlayContent.appendChild(stateName);
+    overlay.appendChild(overlayContent);
+    overlay.appendChild(imageContent);
+    card.appendChild(overlay);
+
+    const text = document.createElement('div');
+    text.classList.add('text');
+    
+    const image = document.createElement('img');
+    image.classList.add('inset');
+    image.setAttribute('src','https://assets.codepen.io/4787486/oak_1.jpg');
+
+    const description = document.createElement('p');
+    description.innerText= "Lorem Ipsum" ;
+    text.appendChild(description);
+
+    text.appendChild(image);
+    card.appendChild(text);
+
     return card;
 }
 
